@@ -20,7 +20,7 @@ int main(){
     
     c1=datarec[6]^datarec[4]^datarec[2]^datarec[0];
     c2 = datarec[5] ^ datarec[4] ^ datarec[1] ^ datarec[0];
-    c3 = datarec[3] ^ datarec[1] ^ datarec[1] ^ datarec[0];
+    c3 = datarec[3] ^ datarec[2] ^ datarec[1] ^ datarec[0];
     c=c3*4+c2*2+c1;
     if(c==0){
         cout<<"No error in transmission"<<endl;
