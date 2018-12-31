@@ -1,0 +1,17 @@
+
+
+  501  cd Desktop/rushi/ns-allinone-3.26
+  502  ./build.py --enable-examples --enable-tests
+  503  cd ns-3.26/
+  504  ls
+  505  clear
+  506  ./waf --run scratch/traffic-control
+  507  ./waf --run scratch/traffic-control
+  508  ./waf --run scratch/traffic-control
+  509  ./waf --run scratch/traffic-control
+  510  ./waf --run scratch/traffic-control
+  511  ./waf --run scratch/traffic-control
+  512  ./waf --run scratch/traffic-control
+  513  ./waf --run scratch/traffic-control
+
+
